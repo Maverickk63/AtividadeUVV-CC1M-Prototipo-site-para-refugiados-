@@ -1,7 +1,10 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: #b5a711;
 }
 .header{
   text-align: right;
+  color: white;
+  background-color: #1b0da9;
 }

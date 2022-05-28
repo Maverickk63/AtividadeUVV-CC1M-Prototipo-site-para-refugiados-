@@ -5,16 +5,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
-  <link href="..\style.css" rel="stylesheet" type="text/css" />
+  <link href="Anfitriao.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body  class='chat'>
+  <div class='header'>
+  <img class='icone' src='..\Imgs/icone.png' onclick='helper()'>
+  </div>
   <div>
-    <div style='text-align: right'><img src='..\Imgs/R3.jpg' height='192' width='192'></div>
+    <div style='text-align: right'><img src='..\Imgs/R3.jpg' class='chatIMG'></div>
     <br>
-    <div style='text-align: right'>'Texto de descrição'</div>
+    <div class='ARTW'>'Texto de descrição'</div>
     <br>
-    <div style='position: absolute; bottom: 0; right: 0'><button onclick='Completed()'>Aceitar</button><button onclick='IRefuseA()'>Recusar</button></div>
+    <div style='position: absolute; bottom: 0; right: 0'><button onclick='Completed()'>Aceitar</button><button onclick="history.back()">Recusar</button></div>
     <div style='position: absolute; bottom: 0; left: 0'><input placeholder='envie uma mensagem' type='text' size='192'><button >Enviar</button></div>
   </div>
   <script src="Anfitriao.js"></script>
