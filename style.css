@@ -8,3 +8,13 @@ html, body {
   color: white;
   background-color: #1b0da9;
 }
+.icone{
+  width: 1.5%
+}
+.Destacar{
+  background-color:#1b0da9;
+  color: white;
+}
+.center{
+  text-align:center;
+}

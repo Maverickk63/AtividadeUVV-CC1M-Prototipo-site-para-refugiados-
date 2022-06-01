@@ -4,21 +4,23 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Refugiados Prototipo</title>
+  <title>Site Refugiados Prototipo</title>
   <link href="Refugiado.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body class='chat'>
-  <div class='header'>
+  <div class='container'>  
+  <header>
   <img class='icone' src='..\Imgs/icone.png' onclick='helper()'>
-  </div>
-  <div>
-    <div style='text-align: right'><img src='..\Imgs/A2.jpg' class='chatIMG'></div>
-    <br>
-    <div style='text-align: right'>'Texto de descrição'</div>
-    <br>
-    <div style='position: absolute; bottom: 0; right: 0'><button onclick='Completed()'>Aceitar</button><button onclick="history.back()">Recusar</button></div>
-    <div style='position: absolute; bottom: 0; left: 0'><input placeholder='envie uma mensagem' type='text' size='192'><button >Enviar</button></div>
+  </header>
+  <main></main>
+  <aside>
+    <div><img src='..\Imgs/A2.jpg' class='chatIMG'></div>
+    <div class='chatIMGT'>'Texto de descrição'</div></aside>
+    <footer>
+    <input placeholder='envie uma mensagem' type='text' class='msg'><button >Enviar</button>
+    <button onclick='Completed()'>Aceitar</button><button onclick="history.back()">Recusar</button>
+  </footer>
   </div>
   <script src="Refugiado.js"></script>
 </body>

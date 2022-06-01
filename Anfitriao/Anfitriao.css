@@ -1,9 +1,13 @@
+.chatIMGT{
+  color:white;
+}
 .chatIMG{
-  width: 10%
+  width: 90%;
 }
 .chat{
   background-image: url(UKB.png);
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 .header{
   text-align: right;
@@ -14,5 +18,34 @@
   width: 1.5%
 }
 body{
-background-color:#b5a711 
+  background-color:#b5a711;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+}
+header{
+  background:#1b0da9;
+  grid-area: h;
+}
+aside{
+  background:#1b0da9;
+  grid-area: a;
+}
+main{
+  background:#b5a711;
+  grid-area: m;
+}
+footer{
+  background:#1b0da9; 
+  grid-area: f;
+}
+.container{
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 3vh 92vh 5vh;
+  grid-template-areas: 'h h'
+                       'm a'
+                       'f f'
 }

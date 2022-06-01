@@ -16,3 +16,7 @@ function Register(){
   }
   else{window.open('Anfitriao/A1Regist.html','_self')}
 }
+//comandos ajuda
+function helper(){
+  window.open('../ajuda.html','_self')
+}
