@@ -10,7 +10,7 @@
   background-size: 100%;
 }
 .msg{
-  width:86.7%
+  width:84%
 }
 .header{
   text-align: right;
@@ -18,7 +18,8 @@
   background-color: #1b0da9;
 }
 .icone{
-  width: 1.5%
+  width: 1.5%;
+  cursor: pointer;
 }
 body{
   background-color:#b5a711;
@@ -53,4 +54,35 @@ footer{
   grid-template-areas: 'h h'
                        'm a'
                        'f f'
+}
+.butao{
+  background-color:white;
+  text-align: center;
+  padding:0.5%;
+  border:none;
+  border-radius:15%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.butao:hover {
+  background-color: #1b0da9;
+  color: white;
+}
+.inp{
+  background-color:white;
+  text-align: center;
+  padding:0.2%;
+  border:none;
+  width:15%;
+}
+.imgfind{
+  text-align:left;
+  cursor: pointer;
+  width: 13%;
+}
+.tf{
+  font-weight:bold;
+  font-size:2vw;
+  text-align: center;
+  vertical-align: top;
 }

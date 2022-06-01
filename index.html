@@ -7,20 +7,33 @@
   <title>Site Refugiados Prototipo</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-
+<div class='container'> 
 <body>
-  <div class='header'>
-  <label for='RouA'>Quem é você?</label>
+  <header>
+  <label for='RouA' style='color:white'>Quem é você?</label>
   <select name='RouA' id='UserIsRorA'>
     <option value='0'>Refugiado</option>
     <option value='1'>Anfitrião</option>
   </select>
-  <button id='login' onclick='Login()'>Log in</button>
-  <button id='register' onclick='Register()'>Cadastrar</button>
+  <button class='butao' id='login' onclick='Login()'>Log in</button>
+  <button class='butao' id='register' onclick='Register()'>Cadastrar</button>
     <img class='icone' src='..\Imgs/icone.png' onclick='helper()'>
-  </div>
+  </header>
+  <main>
+    <br>
+  <div class='IMG_HS'></div>
   <h1 class='center'><span class='Destacar'>QUEM SOMOS:</span></h1>
   <h2 class='center'>Este site é um prototipo pensado para atender refugiados da guerra da ucrania,sobre funcionamento: possui uma aba de encontrar anfitriões ou refugiados , chat , os 3 pontos no canto superior são interagiveis levando a pagina de ajuda</h2>
+  </main>
+  <aside>
+    <h3>Links Usados:</h3>
+    <a href='https://this-person-does-not-exist.com/pt'
+target='_blank' style='color:white;'>Imagens de rosto</a>
+  <br><br>
+  <a href='https://replit.com/' style='color:white;' target='_blank'>Plataforma para programação</a>
+  </aside>
+</div>
+  <footer></footer>
   <script src="script.js"></script>
 </body>
 

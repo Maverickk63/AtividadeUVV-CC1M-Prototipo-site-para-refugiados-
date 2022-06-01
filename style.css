@@ -1,4 +1,7 @@
 html, body {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
   height: 100%;
   width: 100%;
   background-color: #b5a711;
@@ -9,12 +12,65 @@ html, body {
   background-color: #1b0da9;
 }
 .icone{
-  width: 1.5%
+  width: 1.5%;
+  cursor: pointer;
 }
 .Destacar{
   background-color:#1b0da9;
   color: white;
+  border-style:ridge;
 }
 .center{
   text-align:center;
+}
+header{
+  background:#1b0da9;
+  grid-area: h;
+  display: flex;
+  justify-content: right;
+}
+aside{
+  background:#1b0da9;
+  grid-area: a;
+  color:white;
+}
+main{
+  background:#b5a711;
+  grid-area: m;
+}
+.container{
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 4vh 96vh;
+  grid-template-areas: 'h h'
+                       'm a'
+}
+.butao{
+  background-color:white;
+  text-align: center;
+  padding:0.5%;
+  border:none;
+  border-radius:15%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.butao:hover {
+  background-color: #1b0da9;
+  color: white;
+}
+label{
+  color: white;
+  font-size:1vw;
+}
+.IMG_HS{
+  background-image:url('Imgs/ImgRef1.png');
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:80%;
+  height:45%;
+  transition-duration: 0.4s;
+}
+.IMG_HS:hover {
+    background-image:url('Imgs/ImgRef2.png');
 }
