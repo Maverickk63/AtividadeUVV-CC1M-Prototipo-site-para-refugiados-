@@ -69,6 +69,8 @@ label{
   margin-right: auto;
   width:80%;
   height:45%;
+  background-position:center;
+  background-size:cover;
   transition-duration: 0.4s;
 }
 .IMG_HS:hover {

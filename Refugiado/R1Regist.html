@@ -13,20 +13,20 @@
   <img class='icone' src='..\Imgs/icone.png' onclick='helper()'>
   </div>
   <div style='text-align: center;'>
-  <h1 class='subtitulo'>Registrar Anfitrião</h1>
+  <h1 class='subtitulo'>Registrar Refugiado</h1>
   <label for='RRN'>Usuario:</label><br>
-  <input class='inp' id='RRN' placeholder='Email ou Usuario'><br>
+  <input class='inp' onkeyup='initR()' id='RRN' placeholder='Email ou Usuario'><br>
   <label for='RRS'>Senha:</label><br>
-  <input class='inp' id='RRS' placeholder='senha'><br>
+  <input class='inp' onkeyup='initR()' id='RRS' placeholder='senha'><br>
   <label for='RRCS'>Confirmar Senha:</label><br>
-  <input class='inp' id='RRCS' placeholder='Repitir Senha'><br>
+  <input class='inp' onkeyup='initR()' id='RRCS' placeholder='Repitir Senha'><br>
   <label for='RRE'>Email:</label><br>
-  <input class='inp' id='RRE' placeholder='Email'><br>
+  <input class='inp' onkeyup='initR()' id='RRE' placeholder='Email'><br>
   <label for='CodigoONU'>Codigo de Refugiado da ONU:</label><br>
-  <input class='inp' id='CodigoONU' placeholder='Codigo da ONU'><br><br>
-  <button class='EntrarButao' id='RegisterAEnd' onclick='RegisterREnd()' class='butao'>Entrar</button>
+  <input class='inp' onkeyup='initR()' id='CodigoONU' placeholder='Codigo da ONU'><br><br>
+  <button class='butao' id='RegisterREnd' onclick='RegisterREnd()' class='butao'>Entrar</button>
   </div>
-  <script src="Refugiado.js"></script>
+  <script src="Regist.js"></script>
 </body>
 
 </html>

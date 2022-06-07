@@ -1,7 +1,7 @@
 //comandos fim cadastro login
 function LoginAEnd(){
   window.open('A2Find.html','_self')
-  }
+}
 
 function RegisterAEnd(){
   window.open('A2Find.html','_self')
@@ -21,9 +21,4 @@ function ChatAtoR2(){
 }
 function ChatAtoR3(){
   window.open('A3ChatR3.html','_self')
-}
-
-//comandos de conclusão
-function Completed(){
-  window.open('../Bibliografia.html','_self')
 }

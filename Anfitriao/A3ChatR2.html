@@ -11,18 +11,21 @@
 <body class='chat'>
   <div class='container'>  
   <header>
-  <img class='icone' src='..\Imgs/icone.png' onclick='helper()'>
+  <img class='icone' style='position: absolute; right: 0;' 
+ src='..\Imgs/icone.png' onclick='helper()'>
   </header>
-  <main></main>
+  <main>
+    <div id='chatzone'></div>
+  </main>
   <aside>
     <div><img src='..\Imgs/R2.jpg' class='chatIMG'></div>
     <div class='chatIMGT'>'Texto de descrição'</div></aside>
     <footer>
-    <input placeholder='envie uma mensagem' type='text' class='msg'><button >Enviar</button>
-    <button onclick='Completed()'>Aceitar</button><button onclick="history.back()">Recusar</button>
+    <input id='msg' placeholder='envie uma mensagem' type='text' class='inpmsg'><button class='enviar' onclick='enviar()'>Enviar</button>
+    <button onclick='Completed()' class='accept'>Aceitar</button><button onclick="history.back()" class='refuse'>Recusar</button>
   </footer>
   </div>
-  <script src="Anfitriao.js"></script>
+  <script src="Achat.js"></script>
 </body>
 
 </html>

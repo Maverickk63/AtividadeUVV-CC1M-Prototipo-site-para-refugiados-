@@ -4,14 +4,6 @@
 .chatIMG{
   width: 90%;
 }
-.chat{
-  background-image: url(UKB.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.msg{
-  width:84%
-}
 .header{
   text-align: right;
   color: white;
@@ -85,4 +77,49 @@ footer{
   font-size:2vw;
   text-align: center;
   vertical-align: top;
+}
+.enviar{
+  background-color:white;
+  text-align: center;
+  padding:0.2%;
+  border:none;
+  border-radius:15%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.enviar:hover {
+  background-color: #1b0da9;
+  color: white;
+}
+.accept{
+  background-color:white;
+  text-align: center;
+  padding:0.2%;
+  border:none;
+  border-radius:15%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.accept:hover {
+  background-color: green;
+  color: white;
+}
+.refuse{
+  background-color:white;
+  text-align: center;
+  padding:0.2%;
+  border:none;
+  border-radius:15%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.refuse:hover {
+  background-color: darkred;
+  color: white;
+}
+.inpmsg{
+  background-color:white;
+  padding:0.2%;
+  border:none;
+  width:60%;
 }

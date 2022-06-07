@@ -21,8 +21,3 @@ function ChatRtoA2(){
 function ChatRtoA3(){
   window.open('R3ChatA3.html','_self')
 }
-
-// comandos de conclusão
-function Completed(){
-  window.open('../Bibliografia.html','_self')
-}
