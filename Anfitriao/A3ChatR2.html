@@ -15,13 +15,14 @@
  src='..\Imgs/icone.png' onclick='helper()'>
   </header>
   <main>
-    <div id='chatzone'></div>
+    <br>
+    <div><span id='chatzone' class='Destacar'></span></div>
   </main>
   <aside>
     <div><img src='..\Imgs/R2.jpg' class='chatIMG'></div>
     <div class='chatIMGT'>'Texto de descrição'</div></aside>
     <footer>
-    <input id='msg' placeholder='envie uma mensagem' type='text' class='inpmsg'><button class='enviar' onclick='enviar()'>Enviar</button>
+    <input id='msg' placeholder='envie uma mensagem' type='text' class='inpmsg'><button id='envie' class='enviar' onclick='enviar()'>Enviar</button>
     <button onclick='Completed()' class='accept'>Aceitar</button><button onclick="history.back()" class='refuse'>Recusar</button>
   </footer>
   </div>

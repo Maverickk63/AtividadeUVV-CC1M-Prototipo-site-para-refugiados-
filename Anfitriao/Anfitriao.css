@@ -64,13 +64,6 @@ footer{
   background-color: #1b0da9;
   color: white;
 }
-.inp{
-  background-color:white;
-  text-align: center;
-  padding:0.2%;
-  border:none;
-  width:15%;
-}
 .imgfind{
   text-align:left;
   cursor: pointer;
@@ -126,4 +119,40 @@ footer{
   padding:0.2%;
   border:none;
   width:60%;
+}
+.Destacar{
+  background-color:#1b0da9;
+  color: white;
+  border-style:ridge;
+  padding: 8px;
+}
+.RLall{
+  border: 2px solid #1b0da9;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px;
+  border-radius: 15px;
+}
+.inp{
+  background-color:white;
+  text-align: center;
+  padding:0.5%;
+  border:none;
+  width:100%;
+}
+.butaoLR{
+  background-color:white;
+  text-align: center;
+  padding:2%;
+  border:none;
+  border-radius:15%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  width:100%;
+}
+.butaoLR:hover {
+  background-color: #1b0da9;
+  color: white;
 }
