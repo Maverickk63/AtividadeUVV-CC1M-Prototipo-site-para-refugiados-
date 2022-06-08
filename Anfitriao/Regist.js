@@ -11,3 +11,8 @@ function initR(){
     RegisterAButton.disabled = false
   }
 }
+
+//comandos ajuda
+function helper(){
+  window.open('../ajuda.html','_self')
+}
