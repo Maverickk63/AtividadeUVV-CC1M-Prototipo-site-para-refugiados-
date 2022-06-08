@@ -11,3 +11,8 @@ function initL(){
     LoginRButton.disabled = false
   }
 }
+
+//comandos ajuda
+function helper(){
+  window.open('../ajuda.html','_self')
+}
