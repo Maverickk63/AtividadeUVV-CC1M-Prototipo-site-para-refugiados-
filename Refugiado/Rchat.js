@@ -16,3 +16,7 @@ input.addEventListener("keypress", function(event){
     document.getElementById("envie").click();
   }
 })
+//comandos ajuda
+function helper(){
+  window.open('../ajuda.html','_self')
+}
