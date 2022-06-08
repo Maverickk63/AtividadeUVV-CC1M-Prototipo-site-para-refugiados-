@@ -18,5 +18,5 @@ function Register(){
 }
 //comandos ajuda
 function helper(){
-  window.open('../ajuda.html','_self')
+  window.open('ajuda.html','_self')
 }
